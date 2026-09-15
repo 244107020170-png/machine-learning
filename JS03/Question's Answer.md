@@ -89,6 +89,6 @@ concavity_worst
 concave points_worst
 symmetry_worst
 
-Kesimpulan singkat
+Conclusion
 
 After removing the id and Unnamed: 32 variables, 30 numerical features were available for analysis. The diagnosis variable was encoded into binary values, with Malignant as 1 and Benign as 0. The numerical features were standardized using StandardScaler, followed by feature selection using SelectKBest. Several numbers of selected features were tested using Logistic Regression. The best performance was obtained using 20 features, achieving an accuracy of 98.25%. Therefore, 20 features are considered the optimal number of features based on the experiments conducted.
